@@ -15,6 +15,8 @@
 		1409FDD11DB4B11C004900F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1409FDCF1DB4B11C004900F7 /* LaunchScreen.storyboard */; };
 		1409FDDC1DB4B11C004900F7 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1409FDDB1DB4B11C004900F7 /* _____Tests.m */; };
 		1409FDE71DB4B11C004900F7 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1409FDE61DB4B11C004900F7 /* _____UITests.m */; };
+		1409FDF61DB4B988004900F7 /* CityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1409FDF51DB4B988004900F7 /* CityPickerView.m */; };
+		1409FDF81DB4BD8C004900F7 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1409FDF71DB4BD8C004900F7 /* address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		1409FDE21DB4B11C004900F7 /* 城市选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "城市选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1409FDE61DB4B11C004900F7 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		1409FDE81DB4B11C004900F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1409FDF41DB4B988004900F7 /* CityPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerView.h; sourceTree = "<group>"; };
+		1409FDF51DB4B988004900F7 /* CityPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerView.m; sourceTree = "<group>"; };
+		1409FDF71DB4BD8C004900F7 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				1409FDC51DB4B11C004900F7 /* AppDelegate.m */,
 				1409FDC71DB4B11C004900F7 /* ViewController.h */,
 				1409FDC81DB4B11C004900F7 /* ViewController.m */,
+				1409FDF41DB4B988004900F7 /* CityPickerView.h */,
+				1409FDF51DB4B988004900F7 /* CityPickerView.m */,
 				1409FDCA1DB4B11C004900F7 /* Main.storyboard */,
 				1409FDCD1DB4B11C004900F7 /* Assets.xcassets */,
 				1409FDCF1DB4B11C004900F7 /* LaunchScreen.storyboard */,
@@ -117,6 +124,7 @@
 		1409FDC11DB4B11C004900F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1409FDF71DB4BD8C004900F7 /* address.plist */,
 				1409FDC21DB4B11C004900F7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -250,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1409FDD11DB4B11C004900F7 /* LaunchScreen.storyboard in Resources */,
+				1409FDF81DB4BD8C004900F7 /* address.plist in Resources */,
 				1409FDCE1DB4B11C004900F7 /* Assets.xcassets in Resources */,
 				1409FDCC1DB4B11C004900F7 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +288,7 @@
 				1409FDC91DB4B11C004900F7 /* ViewController.m in Sources */,
 				1409FDC61DB4B11C004900F7 /* AppDelegate.m in Sources */,
 				1409FDC31DB4B11C004900F7 /* main.m in Sources */,
+				1409FDF61DB4B988004900F7 /* CityPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
